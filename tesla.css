@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+
+.tesla{
+    background-image: url(images/model-3.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+}
+
+.page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 15px; 
+}
+
+ul{
+    display: flex;
+    font-size: 17px;
+}
+
+ul li{
+    list-style: none;
+    align-items: center;
+    padding: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.heading{
+    text-align: center;
+    margin: 70px;
+}
+
+.heading h1{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.heading p{
+    font-size:20px;
+}
+.heading p span{
+    border-bottom: 1px solid;
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+    margin-top:15rem; 
+    padding: 10px;
+}
+
+.order1 a{
+    text-decoration: none;
+    padding: 10px 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+.order2 a{
+    text-decoration: none;
+    padding: 10px 60px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color:white;
+    color:black;
+}
+
+.page2{
+    background-image: url(images/model-y.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    
+}
+
+.heading1{
+    text-align: center;
+    padding: 60px;
+}
+
+.heading1 h1{
+    font-size: 40px;
+    padding: 10px;
+}
+.heading1 p{
+    font-size:20px;
+}
+
+.heading1 p span{
+    border-bottom: 1px solid;
+}
+
+.page3{
+    background-image: url(images/model-3.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center; 
+}
+
+.heading2{
+    text-align: center;
+    padding: 100px;
+}
+
+.heading2 h1{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.heading2 p{
+    font-size:20px;
+}
+
+.heading2 p span{
+    border-bottom: 1px solid;
+}
+
+.page4{
+    background-image: url(images/model-x.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+}
+
+.heading3{
+    text-align: center;
+    padding: 100px;
+}
+
+.heading3 h1{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.heading3 p{
+    font-size:20px;
+}
+
+.heading3 p span{
+    border-bottom: 1px solid;
+}
+
+.page5{
+    background-image: url(images/solar-panel.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.heading4{
+    text-align: center;
+    padding: 100px;
+}
+.heading4 h1{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.heading4 p{
+    font-size:20px;
+}
+
+.heading4 p span{
+    border-bottom: 1px solid;
+}
+
+.page6{
+    background-image: url(images/solar-roof.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    
+}
+
+.heading5{
+    text-align: center;
+    padding: 100px;
+}
+
+.heading5 h1{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.heading5 p{
+    font-size:20px;
+}
+.heading5 p span{
+    border-bottom: 1px solid;
+}
+
+.page7{
+    background-image: url(images/accessories.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    
+}
+.heading6{
+    text-align: center;
+    padding: 100px;
+}
+
+.heading6 h1{
+    font-size: 40px;
+    padding: 10px;
+}
+
+.heading6 p{
+    font-size:20px;
+}
+.heading6 p span{
+    border-bottom: 1px solid;
+}
+
+.order7{
+    display: flex;
+    justify-content: center;
+    margin-bottom:10rem; 
+    padding: 10px;
+   border: 2px solid black;
+   border-radius: 10px;
+}
+
+.end{
+    padding: 20px 350px;
+}
