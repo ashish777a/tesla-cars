@@ -11,6 +11,7 @@
     height: 100vh;
     background-position: center;
     position: relative;
+    transition: all 0.5s ;
 }
 
 .page{
@@ -80,7 +81,20 @@ ul li a{
     background-color:white;
     color:black;
 }
-
+.icon i{
+    border: 2px solid;
+    font-size: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    /* position: absolute; */
+    margin-left: 260px;
+    position: fixed;
+    /* display: none; */
+    color: white;
+}
+.icon i:hover{
+    background-color:black;
+}
 .page2{
     background-image: url(images/model-y.jpg);
     background-size: cover;
