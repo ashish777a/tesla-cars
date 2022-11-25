@@ -51,7 +51,7 @@
                     <a href="">Existing inventory</a>
                 </div>
                 <div class="icon">
-                   <a href="http://127.0.0.1:5500/tesla.html"><i class="fa-sharp fa-solid fa-arrow-up"></i></a> 
+                 <a href=""><i class="fa-sharp fa-solid fa-arrow-up"></i></a>   
                 </div>
             </div>
             <div class="down-aro">
@@ -157,7 +157,21 @@
         let icon = document.querySelector(".icon i")
 
         window.onscroll = ()=>{
+           if(window.scrollY >120){
             icon.style.display="block"
+           }
+           else{
+            icon.style.display="none"
+           }
+        }
+        icon.onclick = (e)=>{
+            e.preventDefault()
+            window.scrollTo({
+               top:0,
+               left:0,
+               behavior:"smooth"
+            })
+           
         }
     </script>
 </body>
